@@ -70,6 +70,7 @@ const Home = () => {
                                     <div className="flex space-x-4">
                                         <a href="#" className="rounded-md text-lg font-bold px-3 py-2 text-sm font-medium text-white" aria-current="page">Book Store</a>
                                     </div>
+                                    <Link to="/wish_list" className="mt-4 block text-blue-500 hover:underline">Go to Wish List</Link>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +144,7 @@ const Home = () => {
                     </button>
                 </div>
 
-                <Link to="/wish_list" className="mt-4 block text-blue-500 hover:underline">Go to Wish List</Link>
+
             </div>
         </>
     );
